@@ -43,6 +43,7 @@ public class Clyde extends ghost {
           isBlue = false;
         }
       }
+			
       if (dead) {
         targetX = 15 * 16;
         targetY = 272;

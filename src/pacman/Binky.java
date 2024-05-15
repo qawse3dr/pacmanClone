@@ -2,8 +2,6 @@ package pacman;
 
 import java.awt.Graphics;
 import java.awt.Rectangle;
-import java.text.DateFormat;
-import java.util.Date;
 import java.util.Random;
 
 public class Binky extends ghost {
@@ -100,7 +98,6 @@ public class Binky extends ghost {
                 Random rand = new Random();
                 rand.setSeed(System.currentTimeMillis());
 
-                // while (true){
                 direction = turningPoint.turningPoints.get(pointIndex)
                                 .availableMoves[rand.nextInt(
                                     turningPoint.turningPoints.get(pointIndex)

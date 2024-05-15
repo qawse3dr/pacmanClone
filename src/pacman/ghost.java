@@ -13,8 +13,7 @@ public abstract class ghost extends Gameobjects {
   public static BufferedImage ghostSpriteSheet;
   public boolean start = false; // will tell the ghost when they can start
   public movement direction = movement.none; // which way they are moving
-  public String colour =
-      ""; // what ghost it is should have used a enum but didn't.
+  public String colour = "";
   public void currentSprite(ghost self) { // finding which way it should face
     if (self.dead) {
       self.spriteSheetY = 5;
